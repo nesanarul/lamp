@@ -7,3 +7,13 @@ You can do this by going to http://localhost:8001/ logging in with the log in de
 
 # Docker/php
 Gets a suitable image + mysql/php connection installations
+
+
+# How to run
+run in the directory:
+docker compose up
+
+# How to stop
+run in the directory:
+CTRL + C
+docker compose down
