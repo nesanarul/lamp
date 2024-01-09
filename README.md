@@ -17,3 +17,6 @@ sudo docker compose up
 run in the directory:
 CTRL + C
 sudo docker compose down
+
+# Your site
+http://localhost
