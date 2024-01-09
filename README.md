@@ -10,13 +10,14 @@ Gets a suitable image + mysql/php connection installations
 
 
 # How to run
-run in the directory:
+```run in the directory:
 sudo docker compose up
-
+```
 # How to stop
 run in the directory:
+```
 CTRL + C
 sudo docker compose down
-
+```
 # Your site
 http://localhost
