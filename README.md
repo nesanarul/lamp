@@ -23,12 +23,11 @@ Gets a suitable image + mysql/php connection installations
 
 ## How to run
 ```run in the directory:
-docker compose up
+docker compose up -d
 ```
 ## How to stop
 run in the directory:
 ```
-CTRL + C
 docker compose down
 ```
 ## Your site
