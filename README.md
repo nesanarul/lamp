@@ -6,6 +6,12 @@ git clone git@github.com:nesanarul/lamp.git
 cd lamp                               
 ```
 
+## How to use docker without sudo
+Create a docker group and add your user to it. Note that this group will have root-level privileges.
+```
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
 ## DB
 In db the dumb.sql is an sql file containing your sql database export from phpmyadmin. 
 Save each time you edit your database before turning off the docker container.
@@ -17,13 +23,13 @@ Gets a suitable image + mysql/php connection installations
 
 ## How to run
 ```run in the directory:
-sudo docker compose up
+docker compose up
 ```
 ## How to stop
 run in the directory:
 ```
 CTRL + C
-sudo docker compose down
+docker compose down
 ```
 ## Your site
 http://localhost
