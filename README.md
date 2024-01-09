@@ -25,10 +25,13 @@ Gets a suitable image + mysql/php connection installations
 ```run in the directory:
 docker compose up
 ```
+or for detached mode (no webserver console)
+```
+docker compose up -d
+```
 ## How to stop
 run in the directory:
 ```
-CTRL + C
 docker compose down
 ```
 ## Your site
