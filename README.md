@@ -11,9 +11,9 @@ Gets a suitable image + mysql/php connection installations
 
 # How to run
 run in the directory:
-docker compose up
+sudo docker compose up
 
 # How to stop
 run in the directory:
 CTRL + C
-docker compose down
+sudo docker compose down
